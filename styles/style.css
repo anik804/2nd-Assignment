@@ -1,0 +1,102 @@
+/* Font uses */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-bold{
+font-family: "Quicksand", serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+}
+.quicksand-semi-bold{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.quicksand-medium{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.quicksand-regular{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Nav Style */
+
+.head-margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.head-title{
+    font-size: 32px;
+    color: black;
+}
+.lgo-head{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-button{
+    background-color: orange;
+    border-color: orange;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60.5px;
+    padding-left: 60.5px;
+    color: white;
+}
+.nav-links a{
+    text-decoration: none;
+    margin-right: 32px;
+}
+.nav-links{
+    font-size: 20px;
+}
+
+
+/* Banner Section */
+.banner-head{
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+.banner-paragraph{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    border-color: black;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.banner-section{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+}
+.banner-content{
+    margin-top: 122px;
+    margin-bottom: 122px;
+}
+
+
+/* Main Section */
