@@ -1,6 +1,7 @@
 /* Font uses */
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');  /* quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap'); /* raleway */
 
 .quicksand-bold{
 font-family: "Quicksand", serif;
@@ -26,8 +27,16 @@ font-style: normal;
     font-weight: 400;
     font-style: normal;
 }
+.raleway-medium {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
-
+.bg-image{
+    background-image: url("../assets/bg.png");
+}
 
 /* Nav Style */
 
@@ -100,3 +109,81 @@ font-style: normal;
 
 
 /* Main Section */
+.section-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.section1-head{
+    font-size: 46px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-bottom: 60px;
+}
+.card{
+    border-color: rgba(242, 232, 255, 1);
+    border-radius: 18.86px;
+    padding-left: 40.67px;
+    padding-right: 40.67px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+}
+.cards-container{
+    display: flex;
+    gap: 28px;
+
+}
+.card-pera{
+    font-size: 15.09px;
+    color: rgba(128, 128, 128, 1);
+    text-align: center;
+}
+.card-head{
+    font-size: 24px;
+    color: rgba(32, 32, 32, 1);
+    text-align: center;
+}
+.card-button{
+    font-size: 15.09px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 132.46px;
+    padding-right: 132.42px;
+    padding-bottom: 53.76px;
+    padding-top: 33.95px;
+
+}
+.card-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58.15px;
+    height: 120.31px;
+    width: 134.42px;
+}
+.section-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.btn{
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-left: 47px;
+    padding-right: 47px;
+    text-align: center;
+}
+.b-u{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: orange;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    margin-left: 10px;
+}
